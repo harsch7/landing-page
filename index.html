@@ -3,19 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.75 , maximum-scale=1.5">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="header">
-        <a id="header-text" href="#">Header Logo</a>
-        <ul class="right-links">
+        <div id="header-text">Header Logo</div>
+        <div class="header-right-links">
+        <ul class>
             <li><a id="header-link" href="#">header link one</a></li>
             <li><a id="header-link" href="#">header link two</a></li>
             <li><a id="header-link" href="#">header link three</a></li>
         </ul>
+        </div>
     </div>
     <div class="hero">
         <div class="hero-left">
@@ -33,22 +35,22 @@
     <div class="info-section">
         <div class="info-header">Some random information.</div>
         <div class="info-grid">
-            <div class="grid-one">
+            <div class="grids">
                 <div class="border"></div>
                 <div class="grid-text">this is some subtext under an
                     illustration or image</div>
             </div>
-            <div class="grid-two">
+            <div class="grids">
                 <div class="border"></div>
                 <div class="grid-text">this is some subtext under an
                     illustration or image</div>
             </div>
-            <div class="grid-three">
+            <div class="grids">
                 <div class="border"></div>
                 <div class="grid-text">this is some subtext under an
                     illustration or image</div>
             </div>
-            <div class="grid-four">
+            <div class="grids">
                 <div class="border"></div>
                 <div class="grid-text">this is some subtext under an
                     illustration or image</div>
@@ -66,12 +68,14 @@
     </div>
 
     <div class="cta-section">
-        <div class="cta-left">
-            <div class="cta-left-header">Call to action! It's time!</div>
-            <div class="cta-left-text">Sign up for our product by clicking that
-                button right over there!</div>
+        <div class="cta-box">
+            <div class="cta-left">
+                <div class="cta-left-header">Call to action! It's time!</div>
+                <div class="cta-left-text">Sign up for our product by clicking that
+                    button right over there!</div>
+            </div>
+            <button class="sign-up cta-button">Sign up</button>
         </div>
-        <button class="sign-up cta-button">Sign up</button>
     </div>
 
     <div class="footer">
